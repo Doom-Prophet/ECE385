@@ -1,7 +1,5 @@
-# ECE385
-FPGA-Based Side-scrolling Platform Games — SystemVerilog/C
-
-Page Link: https://github.com/Adam-2000/ShadowNinja</br>
-(Only page link is available now, direct data, texts and codes will be uploaded soon)
-
-This is a horizontally scrolling game, completed by my teammate and I(in a group of two), that takes in pixel picture materials and runs on simple game logic based on C codes on FPGA board. Make use of frame buffer built on OCM for VGA image output.
+# ShadowNinja
+ECE 385 Final Project by Chen Yize
+This is a side-scroll game. I use frame buffer on OCM (on-chip memory) for screen output. 
+Due to space limatation of OCM, Shadow Ninja is of 320 * 240 resolution (stretched to 640 *480) and with 6-bit (64) color.
+The game logic is controlled by software. I only spend 8 hours on it, you can improve it by a lot if you are interested.
